@@ -61,7 +61,6 @@ O sistema é composto por quatro agentes de IA que trabalham em sequência:
     * **Próximo:** Passa o planejamento para o Agente REDATOR.
 
 
-
 3.  **Agente REDATOR**
 
     * **Função:** Compor o post da notícia.
@@ -73,7 +72,6 @@ O sistema é composto por quatro agentes de IA que trabalham em sequência:
     * **Saída:** O rascunho inicial do post da notícia.
 
     * **Próximo:** Passa o rascunho para o Agente REVISOR.
-
 
 
 4.  **Agente REVISOR**
@@ -89,9 +87,7 @@ O sistema é composto por quatro agentes de IA que trabalham em sequência:
     * **Próximo:** Apresenta o post finalizado ao "leitor" (neste caso, a saída final do programa).
 
 
-
 ## Tecnologias Utilizadas
-
 
 
 * **Modelos de IA:** Google Gemini (gemini-2.0-flash)
@@ -101,46 +97,6 @@ O sistema é composto por quatro agentes de IA que trabalham em sequência:
 * **Busca Web:** [Google Search API]
 
 * **Linguagem:** Python
-
-
-
-## Como Executar
-
-
-
-1.  Clone este repositório:
-
-    ```bash
-
-    git clone <link_do_seu_repo>
-
-    cd gerador-post-IA
-
-    ```
-
-2.  Instale as dependências:
-
-    ```bash
-
-    pip install -r requirements.txt # Crie este arquivo com as bibliotecas usadas
-
-    ```
-
-3.  Configure suas chaves de API:
-
-    * Obtenha uma chave de API do Google Gemini (via Google AI Studio ou Google Cloud);   
-
-    * Crie um arquivo `.env` na raiz do projeto com suas chaves;
-
-4.  Execute o script principal:
-
-    ```bash
-
-    python main.py #
-
-    ```
-
-
 
 ## Ana Julia Reis de Mattos
 
