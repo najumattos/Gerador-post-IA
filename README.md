@@ -12,7 +12,7 @@ O principal objetivo deste projeto é iniciar o entendimento sobre o funcionamen
 
 ## Visão Geral do Projeto
 
-O projeto simula um fluxo de trabalho de uma agência de marketing na criação de posts para o instagram utilizando quatro agentes de IA especializados. Cada agente recebe a saída do agente anterior e executa sua tarefa com base em prompts definidos, culminando em um post de notícia revisado pronto para leitura.
+O projeto simula um fluxo de trabalho de uma agência de marketing na criação de posts para o instagram com base nas notícias mais releantes do último mês utilizando quatro agentes de IA especializados. Cada agente recebe a saída do agente anterior e executa sua tarefa com base em prompts definidos, culminando em um post de notícia revisado pronto para leitura.
 
 
 ## Arquitetura e Fluxo dos Agentes
