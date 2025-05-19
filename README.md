@@ -1,37 +1,23 @@
-# Projeto de Simulação de Fluxo de Notícias com Agentes de IA
-
-
+# Projeto para criação de posts para o instagram com Agentes de IA
 
 ## Contexto
 
-
-
-Este projeto foi desenvolvido como parte da **Imersão Alura + Google Gemini 2025**, focado na exploração e aplicação prática dos modelos de Inteligência Artificial do Google Gemini.
-
+Este projeto foi replicando como parte da **Imersão Alura + Google Gemini 2025**, focado na exploração e aplicação prática dos modelos de Inteligência Artificial do Google Gemini.
 
 
 ## Objetivo
 
-
-
 O principal objetivo deste projeto é iniciar o entendimento sobre o funcionamento e a orquestração de **modelos e agentes de Inteligência Artificial**. Através da simulação de um pipeline automatizado de agregação, planejamento, redação e revisão de notícias, exploramos como diferentes agentes de IA, cada um com uma função específica, podem colaborar para atingir um resultado complexo.
-
 
 
 ## Visão Geral do Projeto
 
-
-
-O projeto simula um fluxo de trabalho de uma agência de notícias utilizando quatro agentes de IA especializados. Cada agente recebe a saída do agente anterior e executa sua tarefa com base em prompts definidos, culminando em um post de notícia revisado pronto para leitura.
-
+O projeto simula um fluxo de trabalho de uma agência de marketing na criação de posts para o instagram utilizando quatro agentes de IA especializados. Cada agente recebe a saída do agente anterior e executa sua tarefa com base em prompts definidos, culminando em um post de notícia revisado pronto para leitura.
 
 
 ## Arquitetura e Fluxo dos Agentes
 
-
-
 O sistema é composto por quatro agentes de IA que trabalham em sequência:
-
 
 
 1.  **Agente BUSCADOR**
